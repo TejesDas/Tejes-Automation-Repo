@@ -1,0 +1,39 @@
+
+@xyz
+Scenario: Login to Flipkart             # src/test/resources/Features/Demo.feature:4
+  Given start testcase "Flipkart_Login" # org.stepdefinitions.DemoStepDefinations.start_testcase(java.lang.String)
+Starting ChromeDriver 92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}) on port 13000
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1631126419.206][WARNING]: This version of ChromeDriver has not been tested with Chrome version 93.
+Sep 09, 2021 12:10:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  Given I have the URL                  # org.stepdefinitions.DemoStepDefinations.i_have_the_url()
+Sucessfully : Entering usename
+  When I provide Username               # org.stepdefinitions.DemoStepDefinations.i_provide_username()
+Sucessfully : Entering password
+  And I provide Password                # org.stepdefinitions.DemoStepDefinations.i_provide_password()
+Sucessfully : Submit
+logging the browser console logs  :
+[2021-09-09T00:10:25+0530] [SEVERE] https://rome.api.flipkart.com/api/1/fdp - Failed to load resource: the server responded with a status of 404 (Not Found)
+logging the browser console logs  :
+[2021-09-09T00:10:26+0530] [SEVERE] https://rome.api.flipkart.com/api/1/connekt/push/callback - Failed to load resource: the server responded with a status of 406 (Not Acceptable)
+  And I click on Submit button          # org.stepdefinitions.DemoStepDefinations.i_click_on_submit_button()
+  Then I am logged into application     # org.stepdefinitions.DemoStepDefinations.i_am_logged_into_application()
+?????????????????????????????????????????????????????????????????????????????????????
+? Share your Cucumber Report with your team at https://reports.cucumber.io          ?
+? Activate publishing with one of the following:                                    ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    ?
+? Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    ?
+? JUnit:                                           @CucumberOptions(publish = true) ?
+?                                                                                   ?
+? More information at https://reports.cucumber.io/docs/cucumber-jvm                 ?
+?                                                                                   ?
+? Disable this message with one of the following:                                   ?
+?                                                                                   ?
+? src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      ?
+? src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      ?
+?????????????????????????????????????????????????????????????????????????????????????
