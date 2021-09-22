@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-20T18:23:59.201Z",
+        "line": 4,
+        "name": "Login to Flipkart",
+        "description": "",
+        "id": "jkvkhv;login-to-flipkart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122006400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "start testcase \"Flipkart_Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Flipkart_Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "org.stepdefinitions.DemoStepDefinations.start_testcase(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7165827300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have the URL",
+            "match": {
+              "location": "org.stepdefinitions.DemoStepDefinations.i_have_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219688000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I provide Username",
+            "match": {
+              "location": "org.stepdefinitions.DemoStepDefinations.i_provide_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465491500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I provide Password",
+            "match": {
+              "location": "org.stepdefinitions.DemoStepDefinations.i_provide_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245647800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Submit button",
+            "match": {
+              "location": "org.stepdefinitions.DemoStepDefinations.i_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am logged into application",
+            "match": {
+              "location": "org.stepdefinitions.DemoStepDefinations.i_am_logged_into_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@xyz"
+          }
+        ]
+      }
+    ],
+    "name": "jkvkhv",
+    "description": "",
+    "id": "jkvkhv",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Demo.feature",
+    "tags": []
+  }
+]
